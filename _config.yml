@@ -2,4 +2,5 @@ remote_theme: pages-themes/minimal
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-gem "github-pages", group: :jekyll_plugins
+title: [Portfolio of Shayla Tran]
+description: [A collection of previous projects to highlight my work using regression analyses and data visualization.]
