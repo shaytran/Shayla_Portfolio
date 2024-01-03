@@ -2,5 +2,3 @@ theme: lanyon
 remote_theme: poole/lanyon
 lanyon-sidebar: right 
 show_author: true     
-lanyon-sidebar: right 
-show_author: true     
