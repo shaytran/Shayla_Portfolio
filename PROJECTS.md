@@ -1,6 +1,3 @@
-# Shayla Tran's Portfolio
-A collection of my previous projects.
-
 # [Project 1: DashMed Package Overview](https://github.com/mattangoh/DashMed)
 * A PyPi package made for medical professionals to use in medical office settings
 * Combines SQLite databases with simple dashboard tools
