@@ -1,31 +1,24 @@
+remote_theme: BDHU/minimalist
+
 title: Shayla Tran
+description: >
+I am a recent graduate from McGill University in Honours Anatomy and Cell Biology, passionate about healthcare and data analytics. I grew up in Penticton, BC, and am currently furthering my skills in the UBC Master of Data Science program, set to graduate in June. <br></br>
 
-# Setup Lanyon theme
-remote_theme: poole/lanyon
+My projects center around applying data science to uncover trends, with an emphasis in the healthcare field. With a foundation in R and Python, I aim to simplify complex data into clear insights for practical use. The core of my work lies in predicting future patterns and improving decision-making in diverse fields.
+color-scheme: dark
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-# Plugins (if needed)
-plugins:
-  - jekyll-feed
-
-# Sidebar links
-nav:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle
-  - vendor/cache
-  - vendor/gems
-  - vendor/ruby
-
+#logo
+favicon: true
+sidebar:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/shaytran
+  - name: Facebook
+    icon: <i class="fa-brands fa-facebook"></i> # Replace with actual icon
+    link: https://www.facebook.com/profile.php?id=100009858945559
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i> # Replace with actual icon
+    link: https://www.linkedin.com/in/shayla-tran05/
+  - name: Instagram
+    icon: <i class="fa-brands fa-instagram"></i> # Replace with actual icon
+    link: https://www.instagram.com/shayla.annatran/
