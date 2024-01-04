@@ -1,23 +1,17 @@
 title: Shayla Tran
-description: > 
-  I am a recent graduate from McGill University in Honours Anatomy and Cell Biology, passionate about healthcare and data analytics. I grew up in Penticton, BC, and am currently furthering my skills in the UBC Master of Data Science program, set to graduate in June. 
-  My projects center around applying data science to uncover trends, with an emphasis in the healthcare field. With a foundation in R and Python, I aim to simplify complex data into clear insights for practical use. The core of my work lies in predicting future patterns and improving decision-making in diverse fields.
 
-# Lanyon theme settings
-theme: lanyon
-lanyon-sidebar: right # Places the sidebar on the right side
-show_author: true     # Shows the author's name in the sidebar
+# Setup Lanyon theme
+theme: jekyll-theme-lanyon
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-paginate: 5 # Posts per page on the blog index
 
 # Plugins (if needed)
 plugins:
-  - jekyll-feed # Example plugin
+  - jekyll-feed
 
-# Navigation links
+# Sidebar links
 nav:
   - title: "About"
     url: /about/
@@ -34,3 +28,4 @@ exclude:
   - vendor/cache
   - vendor/gems
   - vendor/ruby
+
