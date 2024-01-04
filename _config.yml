@@ -1,9 +1,7 @@
 title: Shayla Tran
+logo: https://github.com/shaytran/Shayla_Portfolio/blob/main/images/shay.png
 description: >
-  I am a recent graduate from McGill University in Honours Anatomy and Cell Biology, passionate about healthcare and data analytics. I grew up in Penticton, BC, and am currently furthering my skills in the UBC Master of Data Science program, set to graduate in June.
-  
-  My projects center around applying data science to uncover trends, with an emphasis in the healthcare field. With a foundation in R and Python, I aim to simplify complex data into clear insights for practical use. The core of my work lies in predicting future patterns and improving decision-making in diverse fields.
-
+  I'm a McGill University graduate in Honours Anatomy and Cell Biology, now advancing my data science expertise at UBC. Originating from Penticton, BC, my primary interest includes harnessing data to enhance healthcare, utilizing R and Python to reveal trends and inform decisions.
 remote_theme: BDHU/minimalist
 color-scheme: dark
 
