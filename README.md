@@ -5,8 +5,8 @@
 * Includes feature to create and view blood pressure data trends on a line chart
 * Inludes user control features to see who can update, insert, or change patient data records
 
-![](https://github.com/shaytran/Shayla_Portfolio/blob/main/images/bloodpressure.png)
-![](https://github.com/shaytran/Shayla_Portfolio/blob/main/images/dashboard.png)
+![](/images/bloodpressure.png)
+![](/images/dashboard.png)
 
 ## [Project 2: Canadian House Market Analysis](https://github.com/shaytran/housemarket_analysis)
 * Add in a few points about the models and the predictions/trends resulting from linear regression analyses
