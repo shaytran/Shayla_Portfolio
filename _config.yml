@@ -1,7 +1,7 @@
 title: Shayla Tran
 
 # Setup Lanyon theme
-theme: jekyll-theme-lanyon
+remote_theme: jekyll-theme-lanyon
 
 # Build settings
 markdown: kramdown
