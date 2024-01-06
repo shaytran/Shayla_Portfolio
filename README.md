@@ -7,16 +7,3 @@
 
 ![](/images/bloodpressure.png)
 ![](/images/dashboard.png)
-
-## [Project 2: Canadian House Market Analysis](https://github.com/shaytran/housemarket_analysis)
-* Add in a few points about the models and the predictions/trends resulting from linear regression analyses
-* This will be presentable on .html
-
-## [Project 3: Canadian Preventable Mortality Rate Correlation Analysis](https://github.com/shaytran/preventablemortality_analysis)
-* Add in a few points about the correlation factors and the trends we see
-* Perhaps some predictions or future directions
-* Talk about contributors
-* Have some sort of interface here (POWERBI?)
-
-## Project 4: Some machine learning project of some sort maybe?
-* Work in progress
