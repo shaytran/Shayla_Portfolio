@@ -18,7 +18,6 @@
 * An R-based analysis project focused on the housing market
 * Utilizes powerful statistical tools like `corrplot` in R for in-depth correlation analysis
 * Features a comprehensive study of how 8 economic factors interrelate within the housing market
-The project leverages a data-driven approach to provide valuable insights into the housing market dynamics
 * Employs advanced data visualization techniques using `ggplot2` to clearly illustrate the relationships between different economic indicators
 * Implementation of Random Forests and LASSO to build a model to predict average house prices in Canada in future years based on previous statistics
 
