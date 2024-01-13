@@ -16,10 +16,10 @@
 ## [Project 2: Canadian House Market Model & Analysis Overview](https://github.com/shaytran/housemarket_analysis.git)
 
 * An R-based analysis project focused on the housing market
-* Utilizes powerful statistical tools like `corrplot` in R for in-depth correlation analysis
-* Features a comprehensive study of how 8 economic factors interrelate within the housing market
-* Employs advanced data visualization techniques using `ggplot2` to clearly illustrate the relationships between different economic indicators
+* Utilizes statistical tools like `corrplot` in R for correlation analysis
+* Employs data visualization techniques using `ggplot2` to illustrate the relationships between different economic indicators
 * Implementation of Random Forests and LASSO to build a model to predict average house prices in Canada in future years based on previous statistics
+* Evaluation of the models based on statistical indicators like MSE
 
 ![Example blood pressure chart](/images/economicfactors_plots.png)
 
