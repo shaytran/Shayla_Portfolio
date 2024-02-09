@@ -13,7 +13,20 @@
 
 *Figure 2: A dashboard presenting the information of a patient.*
 
-## [Project 2: Canadian House Market Model & Analysis Overview](https://github.com/shaytran/housemarket_analysis.git)
+## [Project 2: FOOTBALL-API Wrapper](https://github.com/shaytran/footwrap.git)
+
+* An API wrapper R package called `footwrap` that handles data from the API-FOOTBALL from RAPID_API
+* Comprised of functiosn that wrangle and visualize data on numerous football statistics, including teams, players, and country
+* Parsing through data and creation of clean, ready-to-work-with data frames
+* Employs `ggplot2` and `gt` libraries to create visualizations and aesthetic displays of data and insights
+
+
+![Example blood pressure chart](/images/func.png)
+![Example terminal dashboard](/images/bar.png)
+
+*Figure 1: Example use of the `GetBiggestVenues` function.*
+
+## [Project 3: Canadian House Market Model & Analysis Overview](https://github.com/shaytran/housemarket_analysis.git)
 
 * An R-based analysis project focused on the housing market
 * Utilizes statistical tools like `corrplot` in R for correlation analysis
