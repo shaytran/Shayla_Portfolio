@@ -13,7 +13,26 @@
 
 *Figure 2: A dashboard presenting the information of a patient.*
 
-## [Project 2: FOOTBALL-API Wrapper](https://github.com/shaytran/footwrap.git)
+## [Project 2: Supervised Learning to Grade Quality of Milk](https://github.com/shaytran/DATA572_PROJECT.git)
+
+* Using `sklearn` to build a Logistic Regression and Random Forest Model to predict the grade quality of milk
+* Trained models to use 6 features (ie. turbidity, pH, etc) to predict the quality of milk (ie. high, medium, low).
+* Prepared the dataset by encoding categorical variables, mapped ordinal categories to numerical values, and a applying a train-test split.
+* Compared and contrasted performance of both models by using `matplotlib` to visualize non-linearity of the data, misclassification rates, and importance of variables.
+
+![Misclassification box](/images/box.png)
+
+*Figure 1: Boxplot displaying the 10 fold cv misclassification rate between the two models*
+
+![Logistic Regression Confusion Matrix](images/lr_cm.png)
+
+*Figure 2: Confusion matrix for logistic regression model*
+
+![Random Forest Confusion Matrix](images/rf_cm.png)
+
+*Figure 3: Confusion matrix for random forest model*
+
+## [Project 3: FOOTBALL-API Wrapper](https://github.com/shaytran/footwrap.git)
 
 * An API wrapper R package called `footwrap` that handles data from the API-FOOTBALL from RAPID_API
 * Comprised of functiosn that wrangle and visualize data on numerous football statistics, including teams, players, and country
@@ -26,7 +45,7 @@
 
 *Figure 1: Example use of the `GetBiggestVenues` function.*
 
-## [Project 3: Canadian House Market Model & Analysis Overview](https://github.com/shaytran/housemarket_analysis.git)
+## [Project 4: Canadian House Market Model & Analysis Overview](https://github.com/shaytran/housemarket_analysis.git)
 
 * An R-based analysis project focused on the housing market
 * Utilizes statistical tools like `corrplot` in R for correlation analysis
