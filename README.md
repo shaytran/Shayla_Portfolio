@@ -50,10 +50,10 @@
 * Utilizes a Poisson point process model with covariates to initially guess and then refine with complex models involving splines for a better fit, illustrating the relationships between eagles and their environment.
 * Uncovered insights that may assist in improving conservation strategies and land-use planning, showing the importance of complex models in ecological studies.
 
-![BC Window with Covariates and Eagle Occurrences](/images/eagles1.png)
+![BC Window with Covariates and Eagle Occurrences](/images/eagle1.png)
 
 *Figure 1: Covariates classes & eagle occurrences plots.*
 
-![Rho plots](/images/eagles2.png)
+![Rho plots](/images/eagle2.png)
 
 *Figure 2: Covariate plots with rho.*
