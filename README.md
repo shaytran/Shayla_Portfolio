@@ -13,24 +13,21 @@
 
 *Figure 2: A dashboard presenting the information of a patient.*
 
-## [Project 2: Supervised Learning to Grade Quality of Milk](https://github.com/shaytran/DATA572_PROJECT.git)
+## [Project 2: R-CNN Model Classification of Blood Cells](https://github.com/shaytran/bloodcell_fasterRcnn.git)
 
-* Using `sklearn` to build a Logistic Regression and Random Forest Model to predict the grade quality of milk
-* Trained models to use 6 features (ie. turbidity, pH, etc) to predict the quality of milk (ie. high, medium, low).
-* Prepared the dataset by encoding categorical variables, mapped ordinal categories to numerical values, and a applying a train-test split.
-* Compared and contrasted performance of both models by using `matplotlib` to visualize non-linearity of the data, misclassification rates, and importance of variables.
+* Implements Faster R-CNN with ResNet50 for precise blood cell classification using the BCCD dataset.
+* Overcomes traditional image processing limits using a region proposal network for enhanced detection accuracy.
+* Applies a detailed approach, including data preprocessing and the construction of a custom dataset class in Python for handling image and annotation data, ensuring compatibility with the deep learning model.
+* Conducts comprehensive model training, optimization, and validation using metrics such as loss, precision, recall, F1-score, and mean Average Precision (mAP) to assess and enhance model performance effectively.
+* Achieves an mAP of 87.4%, indicating potential for clinical application and areas for future improvement.
 
-![Misclassification box](/images/box.png)
+![Bar plot of precision](/images/cell1.png)
 
-*Figure 1: Boxplot displaying the 10 fold cv misclassification rate between the two models*
+*Figure 1: Average precision on each blood type with different optimizers*
 
-![Logistic Regression Confusion Matrix](images/lr_cm.png)
+![Cell classification predictions with certainty scores](images/cell2.png)
 
-*Figure 2: Confusion matrix for logistic regression model*
-
-![Random Forest Confusion Matrix](images/rf_cm.png)
-
-*Figure 3: Confusion matrix for random forest model*
+*Figure 2: Sample prediction@0.75 from the trained faster R-CNN model*
 
 ## [Project 3: FOOTBALL-API Wrapper](https://github.com/shaytran/footwrap.git)
 
@@ -45,18 +42,18 @@
 
 *Figure 1: Example use of the `GetBiggestVenues` function.*
 
-## [Project 4: Canadian House Market Model & Analysis Overview](https://github.com/shaytran/housemarket_analysis.git)
+## [Project 4: Spatial Point Analysis on Bald Eagle Occurrences in British Columbia](https://github.com/shaytran/spatialanalysis_eagles.git)
 
-* An R-based analysis project focused on the housing market
-* Utilizes statistical tools like `corrplot` in R for correlation analysis
-* Employs data visualization techniques using `ggplot2` to illustrate the relationships between different economic indicators
-* Implementation of Random Forests and LASSO to build a model to predict average house prices in Canada in future years based on previous statistics
-* Evaluation of the models based on statistical indicators like MSE
+* A spatial statistical analysis that aims to identify patterns and trends in bald eagle distributions across British Columbia using R, using a dataset of over 450,000 observations.
+* Incorporates environmental covariates like Distance to Water, Human Footprint Index, Forest Coverage, and Elevation to explore how these factors influence eagle distributions and to develop predictive models.
+* Employs statistical techniques like intensity calculations, quadrat testing, kernel density estimation, hotspot analysis, and Ripley’s K-function to examine spatial uniformity and clustering of eagle occurrences.
+* Utilizes a Poisson point process model with covariates to initially guess and then refine with complex models involving splines for a better fit, illustrating the relationships between eagles and their environment.
+* Uncovered insights that may assist in improving conservation strategies and land-use planning, showing the importance of complex models in ecological studies.
 
-![Example blood pressure chart](/images/economicfactors_plots.png)
+![BC Window with Covariates and Eagle Occurrences](/images/eagles1.png)
 
-*Figure 1: Line plots of the economic factors from 2013 to 2021.*
+*Figure 1: Covariates classes & eagle occurrences plots.*
 
-![Example terminal dashboard](/images/corr.png)
+![Rho plots](/images/eagles2.png)
 
-*Figure 2: Correlation plot using `corrplot` to observe how the 8 economic factors are correlated to one another.*
+*Figure 2: Covariate plots with rho.*
